@@ -130,13 +130,6 @@ Key parameters can be configured in the header files:
 - **ORAM Parameters**: Adjustable in ORAM implementation files
 - **Encryption**: AES settings in `PathORAM.h`
 
-## 🛡️ Security Features
-
-- **Oblivious Access Patterns** - Query patterns are hidden using ORAM
-- **AES Encryption** - All data encrypted with strong cryptography
-- **Secure Random Generation** - Cryptographically secure randomness
-- **Privacy-Preserving Queries** - Spatial queries don't leak information
-
 ## 📈 Performance Metrics
 
 The implementation includes built-in metrics for research evaluation:
@@ -144,27 +137,3 @@ The implementation includes built-in metrics for research evaluation:
 - Communication overhead
 - Server/client storage costs
 - Access pattern analysis
-
-## 🤝 Contributing
-
-This is a research implementation. For improvements or bug fixes:
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
-
-## 📄 License
-
-Please refer to the license specified in the research paper and contact the authors for usage rights.
-
-## 📧 Contact
-
-For questions about this implementation, please refer to the research paper authors or open an issue in this repository.
-
-## 🔗 Related Work
-
-- **ORAM**: Oblivious RAM techniques for privacy-preserving data access
-- **R-trees**: Spatial indexing for multidimensional data
-- **Secure Enclaves**: Trusted execution environments for secure computation
-- **Spatial Databases**: Geographic information systems and location services
